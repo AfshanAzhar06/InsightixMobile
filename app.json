@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "InsightixMobile",
+    "slug": "InsightixMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "insightixmobile",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "minSdkVersion": "26"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.afshan06.InsightixMobile"
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-community/datetimepicker",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "31e408ea-2872-4f45-916c-ef9dd0a8b9bc"
+      }
+    }
+  }
+}
