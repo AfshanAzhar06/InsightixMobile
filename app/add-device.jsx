@@ -72,7 +72,7 @@ const AddDevice = () => {
       if (editingDevice) {
         await API.put(`/devices/${editingDevice._id}`, deviceData);
         Alert.alert('Success', 'Device updated successfully');
-        router.replace('/(tabs)/settings');
+        router.replace('/tabs/settings');
       } else {
         await API.post('/devices/add', deviceData);
         Alert.alert('Success', 'Device added successfully');

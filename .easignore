@@ -1,19 +1,15 @@
-# Node / JS ignores
 node_modules
-*.log
-*.zip
 .expo
 .expo-shared
-build
-dist
-
-# Android / iOS native (prebuild will regenerate)
 android
 ios
-
-# Python virtual envs
 venv
 __pycache__
-
-# Git
+*.log
+*.zip
+build
+dist
 .git
+
+vscode
+.vscode_backup

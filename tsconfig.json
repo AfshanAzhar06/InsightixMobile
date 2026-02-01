@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "app/index.jsx", "app/(tabs)/dashboard.jsx", "app/LiveVedioScreen.jsx"  ]
+, "app/index.jsx", "app/(tabs)/dashboard.jsx", "app/LiveVideoScreen.jsx"  ]
 }

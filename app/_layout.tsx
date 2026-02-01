@@ -8,7 +8,7 @@ export default function RootLayout() {
       <Stack.Screen name="login" />
       <Stack.Screen name="AlertScreen" />
       <Stack.Screen name="LiveVedioScreen" />
-      <Stack.Screen name="(tabs)" />
+      <Stack.Screen name="tabs" />
     </Stack>
   );
 }
